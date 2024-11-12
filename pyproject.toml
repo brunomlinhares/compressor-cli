@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "compressor-cli"
+version = "0.1.0"
+description = ""
+authors = ["Bruno Linhares <brunomatheuslinhares2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pillow = "^11.0.0"
+rich = "^13.9.4"
+tqdm = "^4.67.0"
+typer = {extras = ["all"], version = "^0.13.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
